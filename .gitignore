@@ -1,0 +1,59 @@
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+._*
+
+# --- Editors / IDEs ---
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.iml
+.history/
+*.swp
+
+# --- Logs ---
+npm-debug.log*
+yarn*.log
+pnpm-debug.log
+*.log
+
+# --- Secrets / env (never commit keys) ---
+.env
+.env.*
+*.env.local
+*.secret
+*.secrets
+*.key
+*.pem
+*.p12
+keystore*
+*.keystore
+
+# --- Node / tooling ---
+node_modules/
+# (Keep lockfiles committed, so don’t ignore package-lock.json / yarn.lock / pnpm-lock.yaml)
+
+# --- Hardhat (if you add it later) ---
+artifacts/
+cache/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+
+# --- Foundry (if you add it later) ---
+out/
+cache/
+broadcast/
+lib/
+
+# --- Generic build outputs ---
+dist/
+build/
+bin/
+
+# --- Solidity compiler byproducts (safe to ignore) ---
+*.dbg.json
+*.metadata.json
+*.lcov
