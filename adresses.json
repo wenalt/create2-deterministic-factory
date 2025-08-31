@@ -1,0 +1,7 @@
+{
+  "celo": {
+    "create2Factory": "0xDE0E8fEb4b88aCfe02c2291BEca7c1fFb7721bFE",
+    "initBuilder":    "0xA72e36A913356353699298BeDACe01bEed70deF8",
+    "greeter":        "0x6FddC83BB0F19597a6AeE9a8BE8b2548F02dC242"
+  }
+}
